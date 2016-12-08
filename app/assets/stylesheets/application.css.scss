@@ -16,6 +16,8 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
 
 // Typography styles
 h1, h2, h3 {
@@ -42,7 +44,7 @@ background: linear-gradient(to left, #c21500 , #ffc500); /* W3C, IE 10+/ Edge, F
     color: white;
     opacity: 0.75;
   }
-
+}
 // Home Page Styles
 .home-callout {
   color: white;
