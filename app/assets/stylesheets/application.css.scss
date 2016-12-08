@@ -33,13 +33,16 @@ background: -webkit-linear-gradient(to left, #c21500 , #ffc500); /* Chrome 10-25
 background: linear-gradient(to left, #c21500 , #ffc500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.navbar-brand {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
-}
+
+
 // Nav Styles
 .navbar {
   border: none;
+}
+
+.navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
 }
 
 .navbar-default .navbar-brand,
@@ -48,6 +51,17 @@ background: linear-gradient(to left, #c21500 , #ffc500); /* W3C, IE 10+/ Edge, F
   &:hover {
     color: white;
     opacity: 0.75;
+  }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #ffc500;
   }
 }
 // Home Page Styles
